@@ -1,0 +1,66 @@
+.card--container {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.main--cart {
+  width: 257px;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+.main--cart h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 116.3%;
+  letter-spacing: -0.01em;
+  margin: 1rem 0;
+  color: #e4f9ff;
+}
+.main--cart p {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.01em;
+  margin: 0.5rem 0;
+  color: #e4f9ff;
+}
+.main--cart button {
+  text-transform: uppercase;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+}
+.card--img {
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  width: 110px;
+  height: 110px;
+}
+.card--img > img {
+  width: 100%;
+}
+.orange {
+  background: #ff7f10;
+}
+.orange button {
+  color: #ff7f10;
+}
+.tomato {
+  background: #ce3459;
+}
+.food {
+  background: rgb(173, 252, 82);
+}
+.food button {
+  color: rgb(173, 252, 82);
+}
+.ovacado {
+  background: rgb(255, 230, 0);
+}
+.ovacado button {
+  color: rgb(255, 230, 0);
+}

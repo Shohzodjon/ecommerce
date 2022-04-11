@@ -1,0 +1,9 @@
+.right--side--section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.right--side--flex {
+  display: flex;
+  column-gap: 1.5rem;
+}

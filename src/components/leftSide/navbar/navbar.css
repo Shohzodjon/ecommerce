@@ -1,0 +1,24 @@
+.navbar--section li {
+  margin: 2.5rem 0;
+}
+.navbar--section div {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+.navbar--section h4 {
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 116.3%;
+  color: rgba(0, 0, 0, 0.507);
+}
+.store--icon,
+.list--icon,
+.mark--icon,
+.heart--icon,
+.eye--icon,
+.wallet--icon,
+.person--icon {
+  color: rgba(0, 0, 0, 0.507);
+  font-size: 2.2rem;
+}

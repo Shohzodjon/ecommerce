@@ -1,0 +1,131 @@
+.main--conponent--section {
+  width: 85.5%;
+  border: 1px solid #2e345627;
+  border-radius: var(--border-radius);
+  padding-bottom: 1rem;
+}
+.main--component--img {
+  width: 100%;
+  position: relative;
+}
+.main--component--img img[alt="img1"] {
+  width: 100%;
+}
+.main--component--img2 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 2.5rem;
+  bottom: -0.7rem;
+  background: rgba(255, 255, 255, 0.58);
+  backdrop-filter: blur(24.4645px);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main--component--footer {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 2rem 1.5rem 1rem;
+}
+.main--component--footer ul {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+.main--component--footer h2 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 1.6rem;
+}
+.main--component--footer li {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+.main--component--footer li::before {
+  content: "";
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: #d0d3db;
+  display: block;
+}
+
+.main--component--span {
+  font-size: 1.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px dotted #2e3456;
+}
+.info--icon,
+.delivery--icon,
+.bookmark--icon,
+.star--icon {
+  font-size: 1.5rem;
+}
+.star--icon {
+  color: #ffb800;
+}
+.main--star--box {
+  display: flex;
+  align-items: center;
+  column-gap: 0.3rem;
+}
+.main--star--box strong {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+/* Main right section */
+
+.main--right--section {
+  background: #fff;
+  border-radius: var(--border-radius);
+  padding: 0.4rem 0.8rem;
+  width: 11.5%;
+}
+.main--right--box {
+  width: 10rem;
+  height: 11rem;
+  background: #2e3456;
+  border-radius: var(--border-radius);
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.4rem;
+}
+.mainRight--store--icon {
+  color: #fff;
+  font-size: 2.8rem;
+}
+.main--right--box span {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.main--right--box2 {
+  width: 10rem;
+  height: 10.5rem;
+  border-radius: var(--border-radius);
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.4rem;
+}
+.spoonKnife--icon {
+  font-size: 2.8rem;
+  color: #2e3456;
+  opacity: 0.3;
+}
+.main--right--box2 span {
+  font-size: 1.5rem;
+  color: #2e3456;
+  opacity: 0.3;
+  line-height: 116.3%;
+}
